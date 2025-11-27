@@ -39,7 +39,7 @@ public:
                 {
                     if (nums[i] + nums[j] ==  target)
                     {
-                        return output = { nums[i],nums[j] };
+                        return output = {i,j };
                     }
                 }
 
