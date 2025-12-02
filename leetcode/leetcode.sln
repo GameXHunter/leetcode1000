@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.两数之和", "..\1.两�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.两数相加", "2.两数相加\2.两数相加.vcxproj", "{BD7A90CE-5D25-4496-8149-DD001801744C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. 无重复字符的最长子串", "3. 无重复字符的最长子串\3. 无重复字符的最长子串.vcxproj", "{172BBA63-3925-4889-A95D-FE5FE1B4D72D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{BD7A90CE-5D25-4496-8149-DD001801744C}.Release|x64.Build.0 = Release|x64
 		{BD7A90CE-5D25-4496-8149-DD001801744C}.Release|x86.ActiveCfg = Release|Win32
 		{BD7A90CE-5D25-4496-8149-DD001801744C}.Release|x86.Build.0 = Release|Win32
+		{172BBA63-3925-4889-A95D-FE5FE1B4D72D}.Debug|x64.ActiveCfg = Debug|x64
+		{172BBA63-3925-4889-A95D-FE5FE1B4D72D}.Debug|x64.Build.0 = Debug|x64
+		{172BBA63-3925-4889-A95D-FE5FE1B4D72D}.Debug|x86.ActiveCfg = Debug|Win32
+		{172BBA63-3925-4889-A95D-FE5FE1B4D72D}.Debug|x86.Build.0 = Debug|Win32
+		{172BBA63-3925-4889-A95D-FE5FE1B4D72D}.Release|x64.ActiveCfg = Release|x64
+		{172BBA63-3925-4889-A95D-FE5FE1B4D72D}.Release|x64.Build.0 = Release|x64
+		{172BBA63-3925-4889-A95D-FE5FE1B4D72D}.Release|x86.ActiveCfg = Release|Win32
+		{172BBA63-3925-4889-A95D-FE5FE1B4D72D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
