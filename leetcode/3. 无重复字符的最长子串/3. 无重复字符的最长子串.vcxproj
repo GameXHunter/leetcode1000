@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="3. 无重复字符的最长子串.cpp" />
+    <ClCompile Include="cpp默认hash函数.cpp" />
+    <ClCompile Include="learnUnorderedSet.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

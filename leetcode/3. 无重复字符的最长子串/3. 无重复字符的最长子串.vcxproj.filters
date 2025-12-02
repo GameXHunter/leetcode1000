@@ -18,5 +18,11 @@
     <ClCompile Include="3. 无重复字符的最长子串.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="learnUnorderedSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp默认hash函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
