@@ -102,8 +102,8 @@ void printList(ListNode* head)
 int main()
 {
     Solution listNode;
-    ListNode* l1 = createList({2,3,4});
-    ListNode* l2 = createList({ 5,6,4 });
+    ListNode* l1 = createList({9,9,9,9});
+    ListNode* l2 = createList({ 9,9,9 });
     printList(l1);
 
     ListNode* result =  listNode.addTwoNumbers(l1, l2);
