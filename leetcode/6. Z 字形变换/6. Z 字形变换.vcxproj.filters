@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="两数之和.cpp">
+    <ClCompile Include="6. Z字形变换.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

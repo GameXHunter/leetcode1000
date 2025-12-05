@@ -108,4 +108,6 @@ int main()
 
     ListNode* result =  listNode.addTwoNumbers(l1, l2);
     printList(result);
+
+    return 0;
 }
