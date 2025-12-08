@@ -24,6 +24,7 @@
     <ProjectGuid>{da599849-ee53-48f5-8da6-5e89694ed2ca}</ProjectGuid>
     <RootNamespace>My4寻找两个正序数组的中位数</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>0004. 寻找两个正序数组的中位数</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
