@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8. 字符串转换整数 (atoi).cpp">
+    <ClCompile Include="9. 回文数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -17,6 +17,14 @@ using namespace std;
 class Solution {
 public:
     int myAtoi(string s) {
+        for (int i = 0; i < s.size(); ++i)
+        {
+           // if (s[i].isint)
+            {
+
+            }
+        }
+
 
     }
 };

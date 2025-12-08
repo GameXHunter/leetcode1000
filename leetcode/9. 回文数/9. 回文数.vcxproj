@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c997f213-3a4e-414d-87d1-ee4bc8c80f25}</ProjectGuid>
-    <RootNamespace>My8字符串转换整数atoi</RootNamespace>
+    <ProjectGuid>{b67bc445-380b-4dc4-90c6-72232c8730ec}</ProjectGuid>
+    <RootNamespace>My9回文数</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="8. 字符串转换整数 (atoi).cpp" />
+    <ClCompile Include="9. 回文数.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
