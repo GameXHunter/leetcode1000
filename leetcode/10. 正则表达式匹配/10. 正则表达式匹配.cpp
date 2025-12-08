@@ -8,18 +8,53 @@
 
 #include<string>
 #include<iostream>
+#include<vector>
+using namespace std;
 
 class Solution {
 public:
     bool isMatch(std::string s, std::string p) {
+        
+        int m = s.size();
+        int n = p.size();
+        
+        //使用dp，设dp[i][j] 表示 s 的前 i 个字符 和 p 的前 j 个字符是否匹配。
+        std::vector<std::vector<bool>> dp(m + 1, std::vector<bool>(n + 1, false));
 
+        // 空字符串匹配空模式
+        dp[0][0] = true;
+
+        // 初始化第一行：s 为空，p 是否能匹配空串？
+        // 只有形如 a*b*c*... 才能匹配空串
+        for (int j = 2; j <= n; ++j) {
+            if (p[j - 1] == '*') {
+                dp[0][j] = dp[0][j - 2];
+            }
+        }
+
+        // 填充 DP 表
+
+
+
+
+        return dp[m][n];
+    }
+
+    // 递归 + 记忆化思路
+    bool isMatch(std::string s, std::string p) {
     }
 };
 
 int main()
 {
-    Solution solution;
+    Solution sol;
 
+    cout << sol.isMatch("aab", "c*a*b") << endl;         // 1 (true)
+    cout << sol.isMatch("mississippi", "mis*is*p*.") << endl; // 0 (false)
+    cout << sol.isMatch("ab", ".*") << endl;             // 1 (true)
+    cout << sol.isMatch("", "a*") << endl;               // 1 (true)
+    cout << sol.isMatch("aaa", "a*a") << endl;           // 1 (true)
+    cout << sol.isMatch("aaa", "ab*a*c*a") << endl;      // 1 (true)
 
     return 0;
 }
