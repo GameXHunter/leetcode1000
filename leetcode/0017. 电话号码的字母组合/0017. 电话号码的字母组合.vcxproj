@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6c8e26d5-95d4-4dec-8cf9-102fa4cc31e0}</ProjectGuid>
-    <RootNamespace>My0011盛最多水的容器</RootNamespace>
+    <ProjectGuid>{3de3e954-ae37-46ed-9c8b-e979212c45c1}</ProjectGuid>
+    <RootNamespace>My0017电话号码的字母组合</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="11. 盛最多水的容器.cpp" />
+    <ClCompile Include="17. 电话号码的字母组合.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utils\Utils.vcxproj">
+      <Project>{02cc10dd-e30a-4028-b0ae-722454495e9d}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
